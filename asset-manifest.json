@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/felixfilipi/static/css/main.06d7148a.css",
-    "main.js": "/felixfilipi/static/js/main.696a92f7.js",
+    "main.css": "/felixfilipi/static/css/main.e15de9f1.css",
+    "main.js": "/felixfilipi/static/js/main.a71f3ef0.js",
     "static/js/787.4a3916a8.chunk.js": "/felixfilipi/static/js/787.4a3916a8.chunk.js",
     "static/media/dashboard.jpeg": "/felixfilipi/static/media/dashboard.015b4d99c720f57b87f6.jpeg",
     "static/media/background.jpg": "/felixfilipi/static/media/background.27638b34aab3ac8a9686.jpg",
     "static/media/pp.jpeg": "/felixfilipi/static/media/pp.23d1dbd87ba985670101.jpeg",
     "static/media/profile2.jpeg": "/felixfilipi/static/media/profile2.1e11ddf0f30b43f13f82.jpeg",
-    "static/media/profile1.jpeg": "/felixfilipi/static/media/profile1.81cfedcc4e320dccb8bf.jpeg",
     "index.html": "/felixfilipi/index.html",
-    "main.06d7148a.css.map": "/felixfilipi/static/css/main.06d7148a.css.map",
-    "main.696a92f7.js.map": "/felixfilipi/static/js/main.696a92f7.js.map",
+    "main.e15de9f1.css.map": "/felixfilipi/static/css/main.e15de9f1.css.map",
+    "main.a71f3ef0.js.map": "/felixfilipi/static/js/main.a71f3ef0.js.map",
     "787.4a3916a8.chunk.js.map": "/felixfilipi/static/js/787.4a3916a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06d7148a.css",
-    "static/js/main.696a92f7.js"
+    "static/css/main.e15de9f1.css",
+    "static/js/main.a71f3ef0.js"
   ]
 }
