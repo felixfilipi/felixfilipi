@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/felixfilipi/static/css/main.992990aa.css",
+    "main.css": "/felixfilipi/static/css/main.75402560.css",
     "main.js": "/felixfilipi/static/js/main.c99cc956.js",
     "static/js/787.4a3916a8.chunk.js": "/felixfilipi/static/js/787.4a3916a8.chunk.js",
     "static/media/award.jpg": "/felixfilipi/static/media/award.a401f06b2aa2759b763d.jpg",
@@ -62,12 +62,12 @@
     "static/media/ansible.png": "/felixfilipi/static/media/ansible.945156f9666b6e6cc731.png",
     "static/media/JavaScript.png": "/felixfilipi/static/media/JavaScript.266bd9fb2663dcc057b4.png",
     "index.html": "/felixfilipi/index.html",
-    "main.992990aa.css.map": "/felixfilipi/static/css/main.992990aa.css.map",
+    "main.75402560.css.map": "/felixfilipi/static/css/main.75402560.css.map",
     "main.c99cc956.js.map": "/felixfilipi/static/js/main.c99cc956.js.map",
     "787.4a3916a8.chunk.js.map": "/felixfilipi/static/js/787.4a3916a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.992990aa.css",
+    "static/css/main.75402560.css",
     "static/js/main.c99cc956.js"
   ]
 }
