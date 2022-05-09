@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  @import "./css/journey.css";
+  @import "./css/landing.css";
+  @import "./css/skills.css";
+  @import "./css/experience.css";
+  @import "./css/project.css";
+}
