@@ -1,7 +1,7 @@
-<h2 align="center"> Hello geeks<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
+<h2 align="center"> Hello geeks 👨‍💻</h2>
 
 <p align="center">
-  <a href="https://github.com/felixfilipi">
+  <a href="https://felixfilipi.github.io/felixfilipi">
   <img width="350" height="100" src="https://img.shields.io/twitter/url?label=felixFilipi&logo=github&style=social&url=https%3A%2F%2Fgithub.com%2Ffelixfilipi%2F">
   </a>
 </p>
