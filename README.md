@@ -24,8 +24,6 @@
 
 <p align="center">
   
-  ![wall](https://user-images.githubusercontent.com/65327805/141338063-b36f05f5-dfa3-405f-9a57-8ec0ec9a2f80.png)
-  
   <hr>
   
   <a href="https://github.com/felixfilipi">
