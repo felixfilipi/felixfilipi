@@ -23,11 +23,11 @@ function Sidebar(props) {
         <div className="Sidebar-information">
           <div className="Sidebar-information-grid">
             <p className="Sidebar-info-1"> Age</p>
-            <p className="Sidebar-info-2"> 21</p>
+            <p className="Sidebar-info-2"> 22</p>
             <p className="Sidebar-info-1"> Domicile </p>
             <p className="Sidebar-info-2"> Jakarta</p>
             <p className="Sidebar-info-1"> Hobbies </p>
-            <p className="Sidebar-info-2"> Chess, Reading</p>
+            <p className="Sidebar-info-2"> Chess, Reading, Music</p>
             <p className="Sidebar-info-1"> Email </p>
             <p className="Sidebar-info-2"> felixfilipi4@gmail.com</p>
             <a href="https://www.linkedin.com/in/felix-filipi-700945146/">
