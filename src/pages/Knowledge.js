@@ -82,9 +82,9 @@ function Knowledge() {
         <h1 className="Typewritter2">Embedded System</h1>
         <p className="Skill-content-description">
           This is the second skill that is considered my passion. Generally, I
-          use Arduino (such as Atmega, Uno, Nano) and esp (such as esp32,
-          esp8266) as the microcontroller and raspberry pi as its
-          microprocessor, I2C, and UART as serial communication, and MQTT as the
+          have experience in Arduino (Atmega328p, Uno, Nano), ESP, and STM nucleo 
+          as the microcontroller and raspberry pi as microprocessor, 
+          I2C, and UART as serial communication, and MQTT as the
           interprocess communication protocol in my embedded project.
         </p>
       </div>
@@ -135,7 +135,7 @@ function Knowledge() {
           percent={0.91}
           arcWidth={0.25}
           style={gaugeStyle}
-          colors={["#dadaf0", "#68abed"]}
+          colors={["#FDFDFC", "#1084B5"]}
           className="Skill-gauge"
         />
       </div>
@@ -170,7 +170,7 @@ function Knowledge() {
           percent={0.9}
           arcWidth={0.25}
           style={gaugeStyle}
-          colors={["#d4e7fa", "#52687d"]}
+          colors={["#FFFFFF", "#242526"]}
           className="Skill-gauge"
         />
       </div>

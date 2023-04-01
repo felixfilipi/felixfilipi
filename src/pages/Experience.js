@@ -212,21 +212,21 @@ function Experience() {
                   </h1>
                 </div>
                 <div className="Experience-about">
-                  <h1 className="Experience-title">
-                    Measuring The Percentage of Brain Concentration Levels Using
-                    Bi-LSTM Algorithm
-                  </h1>
-                  <p className="Experience-time">Apr 2021</p>
+                  <a href="https://www.sciencedirect.com/science/article/pii/S1877050922022591">
+                    <h1 className="Experience-title">
+                      Measuring The Percentage of Brain Concentration Levels Using
+                      Bi-LSTM Algorithm
+                    </h1>
+                  </a>
+                  <p className="Experience-time">January 2023</p>
                   <p className="Experience-description">
-                    We propose a small cluster server called LETS. LETS is
-                    modular and consists of multiple Raspberry Pi 4s, it
-                    consumes less energy compared with traditional servers.
-                    Although the Raspberry Pi 4 is small and has a few
-                    limitations, by using lightweight applications (such as
-                    ansible, k3s, and Nginx), it can provide web server
-                    services. LETS provides traffic handling for up to 742
-                    simultaneous requests, which is sufficient for the needs of
-                    SMBs.
+                    We propose a way to measure the percentage of brain concentration 
+                    level using deep learning approach for EEG signal generated 
+                    by our brain. The EEG signal will be used as training and testing 
+                    datasets to automate the measurement of concentration level using 
+                    Bidirectional Long Short-Term Memory (BiLSTM) algorithm which is 
+                    successfully able to measure the person's concentration level 
+                    on a scale of 1 to 100.                  
                   </p>
                 </div>
               </div>
@@ -245,10 +245,12 @@ function Experience() {
                   <h1 className="Experience-place mt-6">Kinetik UM</h1>
                 </div>
                 <div className="Experience-about">
-                  <h1 className="Experience-title">
-                    Design and Implementation LETS (Low Power Cluster Server)
-                    for Sustaining UMKM during Pandemic
-                  </h1>
+                  <a href="https://kinetik.umm.ac.id/index.php/kinetik/article/view/1162">
+                    <h1 className="Experience-title">
+                      Design and Implementation LETS (Low Power Cluster Server)
+                      for Sustaining UMKM during Pandemic
+                    </h1>
+                  </a>
                   <p className="Experience-time">Feb 2021</p>
                   <p className="Experience-description">
                     We propose small cluster server called as LETS. LETS is

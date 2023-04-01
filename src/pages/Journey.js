@@ -1,5 +1,5 @@
 import Stepper from "./Stepper";
-import profile from "../assets/profile1.jpeg";
+import profile from "../assets/felixfilipi.png";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -31,7 +31,7 @@ function Journey() {
               <img
                 src={profile}
                 alt="profile"
-                width="300"
+                width="350"
                 className="Journey-image"
               />
             </div>

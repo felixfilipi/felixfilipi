@@ -43,7 +43,7 @@
 }
 
 .Experience-mask {
-  @apply bg-black bg-opacity-80;
+  @apply bg-black bg-opacity-80 pb-5 sm:pb-5;
 }
 
 .Experience-title {

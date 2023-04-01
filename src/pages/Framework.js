@@ -4,8 +4,8 @@ import tailwind_img from "../assets/tailwind.png";
 import django_img from "../assets/django.png";
 import net_img from "../assets/net.png";
 import react_img from "../assets/react.png";
-import flask_img from "../assets/flask.png";
-import laravel_img from "../assets/laravel.png";
+import echo_img from "../assets/echo.png";
+import express_img from "../assets/express.png";
 
 function Framework() {
   const gaugeStyle = {
@@ -44,10 +44,10 @@ function Framework() {
       <div className="Skill-content-layout">
         <h1 className="Typewritter2">Tailwind CSS</h1>
         <p className="Skill-content-description">
-          This is the python-based library that I mostly used to manipulate
-          arrays. This library's very helpful since it can manipulate many
-          arrays, which would like to be very helpful for us to create Machine
-          Learning or Deep Learning models.
+          This is the web-based CSS framework that I am most familiar with. 
+          Generally, I use this language to create a beautiful, rapid frontend page. 
+          This framework is great because this framework let us to leave native CSS development, 
+          and give better experience in frontend development.
         </p>
       </div>
       <div className="Skill-content-layout">
@@ -66,38 +66,106 @@ function Framework() {
         />
       </div>
 
-      {/* Django section */}
+      {/* React section */}
       <div className="Skill-content-container">
         <img
-          src={django_img}
-          width="330"
+          src={react_img}
+          width="200"
           className="Skill-content-image"
-          alt="django"
+          alt="react"
         />
       </div>
       <div className="Skill-content-layout">
-        <h1 className="Typewritter2">Django</h1>
+        <h1 className="Typewritter2">React</h1>
         <p className="Skill-content-description">
-          This is the web-based backend framework that I am most familiar with.
-          Generally, I use this language to create complex and secured rapid web
-          development. This framework is great because it has an easy syntax and
-          clean architecture which is Model-View-Template (MVT) which I
-          preferred to use for all of my projects.
+          This is the cross-platform javascript framework that I generally use for
+          frontend development (React JS) and either mobile application (React Native). 
+          This framework supports a single-page application program for web-based application,
+          and cross-platform on android and ios for React Native itself.
         </p>
       </div>
 
       <div className="Skill-content-layout">
         <h1 className="Skill-content-gauge-text">Confidence</h1>
         <GaugeChart
-          id="django-gauge"
+          id="react-gauge"
           animate={false}
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.92}
+          percent={0.93}
           arcWidth={0.25}
           style={gaugeStyle}
-          colors={["#bdf2c7", "#016e15"]}
+          colors={["#FFFFFF", "#61DBFB"]}
+          className="Skill-gauge"
+        />
+      </div>
+      
+      {/* Express section */}
+      <div className="Skill-content-container">
+        <img
+          src={express_img}
+          width="400"
+          className="Skill-content-image"
+          alt="express"
+        />
+      </div>
+      <div className="Skill-content-layout">
+        <h1 className="Typewritter2">Express</h1>
+        <p className="Skill-content-description">
+          This is the web-based javascript framework that I generally use for
+          backend development. This framework incredibly great for backend due to
+          its ability to design and build web application quickly, flexible, and easily.
+        </p>
+      </div>
+
+      <div className="Skill-content-layout">
+        <h1 className="Skill-content-gauge-text">Confidence</h1>
+        <GaugeChart
+          id="express-gauge"
+          animate={false}
+          needleColor="#464A4F"
+          needleBaseColor="white"
+          nrOfLevels={40}
+          percent={0.90}
+          arcWidth={0.25}
+          style={gaugeStyle}
+          colors={["#FFFFFF", "#66727B"]}
+          className="Skill-gauge"
+        />
+      </div>
+      
+      {/* Echo section */}
+      <div className="Skill-content-container">
+        <img
+          src={echo_img}
+          width="200"
+          className="Skill-content-image"
+          alt="echo"
+        />
+      </div>
+      <div className="Skill-content-layout">
+        <h1 className="Typewritter2">Echo</h1>
+        <p className="Skill-content-description">
+          This is the "High performance, extensible, minimalist Go web framework" 
+          that I generally use for microservice based architecture development. 
+          This framework supports ton of features, including web socket, authentication,
+          automatic TLS, and many more.
+        </p>
+      </div>
+
+      <div className="Skill-content-layout">
+        <h1 className="Skill-content-gauge-text">Confidence</h1>
+        <GaugeChart
+          id="echo-gauge"
+          animate={false}
+          needleColor="#464A4F"
+          needleBaseColor="white"
+          nrOfLevels={40}
+          percent={0.89}
+          arcWidth={0.25}
+          style={gaugeStyle}
+          colors={["#818181", "#00AFD1"]}
           className="Skill-gauge"
         />
       </div>
@@ -114,10 +182,10 @@ function Framework() {
       <div className="Skill-content-layout">
         <h1 className="Typewritter2">.NET</h1>
         <p className="Skill-content-description">
-          This is the cross-platform software framework that I generally use for
+          This is the cross-platform framework that I generally use for
           enterprise software development. This framework is great because it
-          has a stable and older community which is great for projects that need
-          to focus on stability.
+          backed by Microsoft and has a stable and older community which is 
+          great for projects that need to focus on stability and support.
         </p>
       </div>
 
@@ -129,117 +197,45 @@ function Framework() {
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.89}
+          percent={0.87}
           arcWidth={0.25}
           style={gaugeStyle}
-          colors={["#404040", "#32c7f0"]}
+          colors={["#DAF0FB", "#32c7f0"]}
           className="Skill-gauge"
         />
       </div>
 
-      {/* React section */}
+      {/* Django section */}
       <div className="Skill-content-container">
         <img
-          src={react_img}
-          width="200"
+          src={django_img}
+          width="330"
           className="Skill-content-image"
-          alt="react"
+          alt="django"
         />
       </div>
       <div className="Skill-content-layout">
-        <h1 className="Typewritter2">React JS</h1>
+        <h1 className="Typewritter2">Django</h1>
         <p className="Skill-content-description">
-          This is the web-based javascript framework that I generally use for
-          complex frontend development. This framework supports a single-page
-          application program which is very good since it doesn't need to load
-          many pages in it, so it's incredibly faster than other usual programs.
+          This is the web-based backend framework that I generally use 
+          to create complex and secured rapid web development. 
+          This framework is great because it has an easy syntax and
+          clean architecture which is Model-View-Template (MVT).
         </p>
       </div>
 
       <div className="Skill-content-layout">
         <h1 className="Skill-content-gauge-text">Confidence</h1>
         <GaugeChart
-          id="react-gauge"
+          id="django-gauge"
           animate={false}
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.89}
+          percent={0.84}
           arcWidth={0.25}
           style={gaugeStyle}
-          colors={["#03fcdb", "#038cfc"]}
-          className="Skill-gauge"
-        />
-      </div>
-
-      {/* Flask section */}
-      <div className="Skill-content-container">
-        <img
-          src={flask_img}
-          width="350"
-          className="Skill-content-image"
-          alt="flask"
-        />
-      </div>
-      <div className="Skill-content-layout">
-        <h1 className="Typewritter2">Flask</h1>
-        <p className="Skill-content-description">
-          This is the web-based python backend framework that I generally use to
-          create a lightweight codebase program. Since flask is a small and
-          lightweight web framework, it encourages us to use this as a rapid
-          web-based backend framework for microservices or small projects.
-        </p>
-      </div>
-
-      <div className="Skill-content-layout">
-        <h1 className="Skill-content-gauge-text">Confidence</h1>
-        <GaugeChart
-          id="flask-gauge"
-          animate={false}
-          needleColor="#464A4F"
-          needleBaseColor="white"
-          nrOfLevels={40}
-          percent={0.85}
-          arcWidth={0.25}
-          style={gaugeStyle}
-          colors={["#404040", "#dbd5d5"]}
-          className="Skill-gauge"
-        />
-      </div>
-
-      {/* Laravel section */}
-      <div className="Skill-content-container">
-        <img
-          src={laravel_img}
-          width="200"
-          className="Skill-content-image"
-          alt="laravel"
-        />
-      </div>
-      <div className="Skill-content-layout">
-        <h1 className="Typewritter2">Laravel</h1>
-        <p className="Skill-content-description">
-          This is the web-based PHP backend framework that I usually use for
-          several websites that are already or need to be deployed in the LAMP
-          or WAMP stack (since most of Indonesia's deployed applications are
-          already built in this stack). I'm not a fan of this framework since I
-          don't see any advantages of using this framework over other frameworks
-          like Django, etc.
-        </p>
-      </div>
-
-      <div className="Skill-content-layout">
-        <h1 className="Skill-content-gauge-text">Confidence</h1>
-        <GaugeChart
-          id="laravel-gauge"
-          animate={false}
-          needleColor="#464A4F"
-          needleBaseColor="white"
-          nrOfLevels={40}
-          percent={0.82}
-          arcWidth={0.25}
-          style={gaugeStyle}
-          colors={["#595454", "#cc1414"]}
+          colors={["#bdf2c7", "#016e15"]}
           className="Skill-gauge"
         />
       </div>

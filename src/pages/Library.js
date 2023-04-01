@@ -7,6 +7,7 @@ import opencv_img from "../assets/opencv.png";
 import pytorch_img from "../assets/pytorch.png";
 import jquery_img from "../assets/jquery.png";
 import qt_img from "../assets/qt.png";
+import boost_img from "../assets/boost.png";
 
 function Library() {
   const gaugeStyle = {
@@ -206,40 +207,6 @@ function Library() {
         />
       </div>
 
-      {/* Jquery section */}
-      <div className="Skill-content-container">
-        <img
-          src={jquery_img}
-          width="200"
-          className="Skill-content-image"
-          alt="Jquery"
-        />
-      </div>
-      <div className="Skill-content-layout">
-        <h1 className="Typewritter2">Jquery</h1>
-        <p className="Skill-content-description">
-          This is a javascript-based frontend library that I usually use to
-          create rapid web development animations. This library also provides
-          various functions that help us to make frontend development easier.
-        </p>
-      </div>
-
-      <div className="Skill-content-layout">
-        <h1 className="Skill-content-gauge-text">Confidence</h1>
-        <GaugeChart
-          id="jquery-gauge"
-          animate={false}
-          needleColor="#464A4F"
-          needleBaseColor="white"
-          nrOfLevels={40}
-          percent={0.86}
-          arcWidth={0.25}
-          style={gaugeStyle}
-          colors={["#3b3c3d", "#0f70d1"]}
-          className="Skill-gauge"
-        />
-      </div>
-
       {/* Qt section */}
       <div className="Skill-content-container">
         <img
@@ -267,10 +234,79 @@ function Library() {
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.82}
+          percent={0.86}
           arcWidth={0.25}
           style={gaugeStyle}
           colors={["#ceded1", "#24d143"]}
+          className="Skill-gauge"
+        />
+      </div>
+
+      {/* Jquery section */}
+      <div className="Skill-content-container">
+        <img
+          src={jquery_img}
+          width="200"
+          className="Skill-content-image"
+          alt="Jquery"
+        />
+      </div>
+      <div className="Skill-content-layout">
+        <h1 className="Typewritter2">Jquery</h1>
+        <p className="Skill-content-description">
+          This is a javascript-based frontend library that I usually use to
+          create rapid web development animations. This library also provides
+          various functions that help us to make frontend development easier.
+        </p>
+      </div>
+
+      <div className="Skill-content-layout">
+        <h1 className="Skill-content-gauge-text">Confidence</h1>
+        <GaugeChart
+          id="jquery-gauge"
+          animate={false}
+          needleColor="#464A4F"
+          needleBaseColor="white"
+          nrOfLevels={40}
+          percent={0.85}
+          arcWidth={0.25}
+          style={gaugeStyle}
+          colors={["#3b3c3d", "#0f70d1"]}
+          className="Skill-gauge"
+        />
+      </div>
+
+      {/* Boost section */}
+      <div className="Skill-content-container">
+        <img
+          src={boost_img}
+          width="400"
+          className="Skill-content-image"
+          alt="Boost"
+        />
+      </div>
+      <div className="Skill-content-layout">
+        <h1 className="Typewritter2">Boost</h1>
+        <p className="Skill-content-description">
+          This is a free peer-reviewed portable C++ source libraries that work well
+          with C++ standard Library. I generally use this library to do various
+          tasks and structures such as linear algebra, multithreading, regular
+          expression and many more.
+        </p>
+      </div>
+
+      <div className="Skill-content-layout">
+        <h1 className="Skill-content-gauge-text">Confidence</h1>
+        <GaugeChart
+          id="Boost-gauge"
+          animate={false}
+          needleColor="#464A4F"
+          needleBaseColor="white"
+          nrOfLevels={40}
+          percent={0.84}
+          arcWidth={0.25}
+          style={gaugeStyle}
+          colors={["#8CBCF9", "#405A7B"]}
           className="Skill-gauge"
         />
       </div>

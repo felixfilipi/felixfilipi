@@ -7,7 +7,8 @@ import cs_img from "../assets/cs.png";
 import java_img from "../assets/java.png";
 import kotlin_img from "../assets/kotlin.png";
 import r_img from "../assets/R.png";
-import php_img from "../assets/php.png";
+import ts_img from "../assets/ts.png";
+import golang_img from "../assets/golang.png";
 
 function Language() {
   const gaugeStyle = {
@@ -96,14 +97,14 @@ function Language() {
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.9}
+          percent={0.93}
           arcWidth={0.25}
           style={gaugeStyle}
           colors={["#03ffd9", "#1c03ff"]}
           className="Skill-gauge"
         />
       </div>
-
+ 
       {/* Javascript Section */}
 
       <div className="Skill-content-container">
@@ -132,7 +133,7 @@ function Language() {
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.88}
+          percent={0.90}
           arcWidth={0.25}
           style={gaugeStyle}
           colors={["#e2ff03", "#ff4a03"]}
@@ -140,6 +141,77 @@ function Language() {
         />
       </div>
 
+      {/* Typescript Section */}
+
+      <div className="Skill-content-container">
+        <img
+          src={ts_img}
+          width="200"
+          className="Skill-content-image"
+          alt="typescript"
+        />
+      </div>
+      <div className="Skill-content-layout">
+        <h1 className="Typewritter2">TypeScript</h1>
+        <p className="Skill-content-description">
+          This is the programming language that I generally use as superset
+          of javascript in web development. This development includes both 
+          frontend and backend. Usually, this programming language is integrated 
+          with several frameworks such as React, express, etc.
+        </p>
+      </div>
+
+      <div className="Skill-content-layout">
+        <h1 className="Skill-content-gauge-text">Confidence</h1>
+        <GaugeChart
+          id="typescript-gauge"
+          animate={false}
+          needleColor="#464A4F"
+          needleBaseColor="white"
+          nrOfLevels={40}
+          percent={0.89}
+          arcWidth={0.25}
+          style={gaugeStyle}
+          colors={["#FFFFFF", "#2D79C7"]}
+          className="Skill-gauge"
+        />
+      </div>
+
+      {/* Golang Section */}
+
+      <div className="Skill-content-container">
+        <img
+          src={golang_img}
+          width="200"
+          className="Skill-content-image"
+          alt="golang"
+        />
+      </div>
+      <div className="Skill-content-layout">
+        <h1 className="Typewritter2">Golang</h1>
+        <p className="Skill-content-description">
+          This is the programming language that I generally use in development of 
+          microservice based architecture. This language best known for its speed 
+          performance in microservice application. 
+        </p>
+      </div>
+
+      <div className="Skill-content-layout">
+        <h1 className="Skill-content-gauge-text">Confidence</h1>
+        <GaugeChart
+          id="golang-gauge"
+          animate={false}
+          needleColor="#464A4F"
+          needleBaseColor="white"
+          nrOfLevels={40}
+          percent={0.87}
+          arcWidth={0.25}
+          style={gaugeStyle}
+          colors={["#00d0ff", "#2d79c7"]}
+          className="Skill-gauge"
+        />
+      </div>
+      
       {/* C# Section */}
 
       <div className="Skill-content-container">
@@ -168,7 +240,7 @@ function Language() {
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.87}
+          percent={0.85}
           arcWidth={0.25}
           style={gaugeStyle}
           colors={["#ff03cd", "#7d14d9"]}
@@ -176,6 +248,42 @@ function Language() {
         />
       </div>
 
+      {/* Kotlin Section */}
+
+      <div className="Skill-content-container">
+        <img
+          src={kotlin_img}
+          width="200"
+          className="Skill-content-image"
+          alt="Kotlin"
+        />
+      </div>
+      <div className="Skill-content-layout">
+        <h1 className="Typewritter2">Kotlin</h1>
+        <p className="Skill-content-description">
+          This is the high-level programming language that I mostly use for
+          mobile development. This language is an official language to create
+          native mobile application development. Mostly I use the android studio
+          as its IDE.
+        </p>
+      </div>
+
+      <div className="Skill-content-layout">
+        <h1 className="Skill-content-gauge-text">Confidence</h1>
+        <GaugeChart
+          id="kotlin-gauge"
+          animate={false}
+          needleColor="#464A4F"
+          needleBaseColor="white"
+          nrOfLevels={40}
+          percent={0.84}
+          arcWidth={0.25}
+          style={gaugeStyle}
+          colors={["#54d1ff", "#f07d0a"]}
+          className="Skill-gauge"
+        />
+      </div>
+      
       {/* Java Section */}
 
       <div className="Skill-content-container">
@@ -190,9 +298,11 @@ function Language() {
         <h1 className="Typewritter2">Java</h1>
         <p className="Skill-content-description">
           This is the high-level programming language that I generally use for
-          mobile development and desktop application. This programming language
+          mobile development or enteprises application. This programming language
           helps me to create complex structured applications since it is an
-          object-oriented language..
+          object-oriented language. I rarely used this language unless the stack itself
+          told me to use this language since I don't see any reasonable benefit by
+          using this language instead the other languages.
         </p>
       </div>
 
@@ -204,7 +314,7 @@ function Language() {
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.85}
+          percent={0.82}
           arcWidth={0.25}
           style={gaugeStyle}
           colors={["#1e11ad", "#ad1111"]}
@@ -239,82 +349,10 @@ function Language() {
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.82}
+          percent={0.80}
           arcWidth={0.25}
           style={gaugeStyle}
           colors={["#5c5b63", "#6354ff"]}
-          className="Skill-gauge"
-        />
-      </div>
-
-      {/* Kotlin Section */}
-
-      <div className="Skill-content-container">
-        <img
-          src={kotlin_img}
-          width="200"
-          className="Skill-content-image"
-          alt="Kotlin"
-        />
-      </div>
-      <div className="Skill-content-layout">
-        <h1 className="Typewritter2">Kotlin</h1>
-        <p className="Skill-content-description">
-          This is the high-level programming language that I mostly use for
-          mobile development. This language is an official language to create
-          native mobile application development. Mostly I use the android studio
-          as its IDE.
-        </p>
-      </div>
-
-      <div className="Skill-content-layout">
-        <h1 className="Skill-content-gauge-text">Confidence</h1>
-        <GaugeChart
-          id="kotlin-gauge"
-          animate={false}
-          needleColor="#464A4F"
-          needleBaseColor="white"
-          nrOfLevels={40}
-          percent={0.8}
-          arcWidth={0.25}
-          style={gaugeStyle}
-          colors={["#54d1ff", "#f07d0a"]}
-          className="Skill-gauge"
-        />
-      </div>
-
-      {/* PHP Section */}
-
-      <div className="Skill-content-container">
-        <img
-          src={php_img}
-          width="200"
-          className="Skill-content-image"
-          alt="php"
-        />
-      </div>
-      <div className="Skill-content-layout">
-        <h1 className="Typewritter2">PHP</h1>
-        <p className="Skill-content-description">
-          This is the programming language that I usually use for LAMP or WAMP
-          stack web-based applications. I'm not a fan of this language because
-          I've not found any good framework for this language that gives better
-          performance than Django, which is my specialty.
-        </p>
-      </div>
-
-      <div className="Skill-content-layout">
-        <h1 className="Skill-content-gauge-text">Confidence</h1>
-        <GaugeChart
-          id="php-gauge"
-          animate={false}
-          needleColor="#464A4F"
-          needleBaseColor="white"
-          nrOfLevels={40}
-          percent={0.76}
-          arcWidth={0.25}
-          style={gaugeStyle}
-          colors={["#7e7a80", "#8234a8"]}
           className="Skill-gauge"
         />
       </div>

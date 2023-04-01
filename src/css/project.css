@@ -1,5 +1,5 @@
 .Project-container {
-  @apply bg-project bg-cover overflow-hidden mb-8 rounded-xl;
+  @apply bg-project bg-cover overflow-hidden mb-8 rounded-xl m-3;
 }
 
 .Project-layout {

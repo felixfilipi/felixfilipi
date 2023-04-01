@@ -44,12 +44,12 @@ function Projects() {
                 <img
                   src={eyes_img}
                   width={350}
-                  alt="e-Eyes"
+                  alt="E-eyes"
                   className="Project-image"
                 />
               </div>
               <div className="Project-about">
-                <h1 className="Project-title">e-Eyes</h1>
+                <h1 className="Project-title">E-eyes</h1>
                 <p className="Project-description">
                   This repository aims to build a face recognition attendance
                   system with a temperature scanning feature, and also work as

@@ -4,6 +4,7 @@ import mysql_img from "../assets/mysql.png";
 import mongo_img from "../assets/mongo.png";
 import oracle_img from "../assets/oracle.png";
 import hive_img from "../assets/hive.png";
+import postgres_img from "../assets/postgres.png";
 
 function Databases() {
   const gaugeStyle = {
@@ -64,6 +65,41 @@ function Databases() {
         />
       </div>
 
+      {/* Postgres section */}
+      <div className="Skill-content-container">
+        <img
+          src={postgres_img}
+          width="200"
+          className="Skill-content-image"
+          alt="postgres"
+        />
+      </div>
+      <div className="Skill-content-layout">
+        <h1 className="Typewritter2">PostgreSQL</h1>
+        <p className="Skill-content-description">
+          This is the most frequent database that I usually use in my projects.
+          Since PostgreSQL most known for its performance and is completely free and
+          open-sourced, this led PostgreSQL to become an absolutely good choice for
+          project development since we don't need to pay for its license.
+        </p>
+      </div>
+
+      <div className="Skill-content-layout">
+        <h1 className="Skill-content-gauge-text">Confidence</h1>
+        <GaugeChart
+          id="postgres-gauge"
+          animate={false}
+          needleColor="#464A4F"
+          needleBaseColor="white"
+          nrOfLevels={40}
+          percent={0.93}
+          arcWidth={0.25}
+          style={gaugeStyle}
+          colors={["#336791", "#FFFFFF"]}
+          className="Skill-gauge"
+        />
+      </div>
+      
       {/* MySQL section */}
       <div className="Skill-content-container">
         <img
@@ -76,7 +112,7 @@ function Databases() {
       <div className="Skill-content-layout">
         <h1 className="Typewritter2">MySQL</h1>
         <p className="Skill-content-description">
-          This is the most frequent database that I usually use for my projects.
+          This is popular open source database that I usually use for small projects.
           Since MySQL works best for a small project and is completely free and
           open-sourced, this led MySQL to become an absolutely good choice for
           project development since we don't need to pay for its license.
@@ -91,7 +127,7 @@ function Databases() {
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.92}
+          percent={0.91}
           arcWidth={0.25}
           style={gaugeStyle}
           colors={["#367ab5", "#b0a32e"]}
@@ -127,7 +163,7 @@ function Databases() {
           needleColor="#464A4F"
           needleBaseColor="white"
           nrOfLevels={40}
-          percent={0.86}
+          percent={0.88}
           arcWidth={0.25}
           style={gaugeStyle}
           colors={["#404040", "#27b030"]}

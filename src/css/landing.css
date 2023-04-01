@@ -1,7 +1,7 @@
 /* Main */
 
 body {
-  @apply bg-gray-900;
+  @apply bg-gray-900 overflow-x-hidden;
 }
 .Home {
   @apply py-3 px-3 bg-gray-900 sm:grid grid-cols-4 absolute h-full;
@@ -139,7 +139,7 @@ body {
 }
 
 .Top-skill-layout {
-  @apply sm:grid grid-cols-3 sm:py-5 px-5 sm:gap-5 bg-[#242526] sm:bg-gray-900;
+  @apply sm:grid grid-cols-3 sm:py-5 px-5 sm:gap-5 bg-[#242526] sm:bg-gray-900 mb-3;
 }
 
 .Top-Project-container {
