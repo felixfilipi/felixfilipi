@@ -1,13 +1,14 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import Stepper from "./Stepper";
-import Language from "./Language";
-import Framework from "./Framework";
-import Library from "./Library";
-import Knowledge from "./Knowledge";
-import Databases from "./Databases";
-import Tools from "./Tools";
-import Others from "./Others";
+import Stepper from "../components/Stepper";
+import Knowledge from "../data/Knowledge";
+import PageTemplate from "../components/PageTemplate";
+import Framework from "../data/Framework";
+import Library from "../data/Library";
+import Databases from "../data/Databases";
+import Tools from "../data/Tools";
+import Others from "../data/Others";
+import Language from "../data/Language";
 
 function Skills() {
   const pageVariant = {
@@ -25,21 +26,92 @@ function Skills() {
   const [view, setView] = useState("hidden");
 
   let content;
+  let data;
 
   if (active === 1) {
-    content = <Language />;
-  } else if (active === 2) {
-    content = <Framework />;
+    data = Language;
+    content = 
+      <PageTemplate 
+      images={data.images}
+      width={data.width}
+      skillNames={data.skillNames} 
+      gaugePercentages={data.gaugePercentages} 
+      skillDescriptions={data.skillDescriptions} 
+      description={data.description} 
+      gaugeColors={data.gaugeColors} 
+    />;
+  }else if (active === 2) {
+    data = Framework;
+    content = 
+      <PageTemplate 
+      images={data.images} 
+      width={data.width}
+      skillNames={data.skillNames} 
+      gaugePercentages={data.gaugePercentages} 
+      skillDescriptions={data.skillDescriptions} 
+      description={data.description} 
+      gaugeColors={data.gaugeColors} 
+    />;
   } else if (active === 3) {
-    content = <Library />;
+    data = Library;
+    content = 
+      <PageTemplate 
+      images={data.images} 
+      width={data.width}
+      skillNames={data.skillNames} 
+      gaugePercentages={data.gaugePercentages} 
+      skillDescriptions={data.skillDescriptions} 
+      description={data.description} 
+      gaugeColors={data.gaugeColors} 
+    />;
   } else if (active === 4) {
-    content = <Knowledge />;
+    data = Knowledge;
+    content = 
+      <PageTemplate 
+      images={data.images} 
+      width={data.width}
+      skillNames={data.skillNames} 
+      gaugePercentages={data.gaugePercentages} 
+      skillDescriptions={data.skillDescriptions} 
+      description={data.description} 
+      gaugeColors={data.gaugeColors} 
+    />;
   } else if (active === 5) {
-    content = <Databases />;
+    data = Databases;
+    content = 
+      <PageTemplate 
+      images={data.images} 
+      width={data.width}
+      skillNames={data.skillNames} 
+      gaugePercentages={data.gaugePercentages} 
+      skillDescriptions={data.skillDescriptions} 
+      description={data.description} 
+      gaugeColors={data.gaugeColors} 
+    />;
   } else if (active === 6) {
-    content = <Tools />;
+    data = Tools;
+    content = 
+      <PageTemplate 
+      images={data.images} 
+      width={data.width}
+      skillNames={data.skillNames} 
+      gaugePercentages={data.gaugePercentages} 
+      skillDescriptions={data.skillDescriptions} 
+      description={data.description} 
+      gaugeColors={data.gaugeColors} 
+    />;
   } else if (active === 7) {
-    content = <Others />;
+    data = Others;
+    content = 
+      <PageTemplate 
+      images={data.images} 
+      width={data.width}
+      skillNames={data.skillNames} 
+      gaugePercentages={data.gaugePercentages} 
+      skillDescriptions={data.skillDescriptions} 
+      description={data.description} 
+      gaugeColors={data.gaugeColors} 
+    />;
   }
 
   return (

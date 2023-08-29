@@ -1,4 +1,4 @@
-import Stepper from "./Stepper";
+import Stepper from "../components/Stepper";
 import profile from "../assets/felixfilipi.png";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";

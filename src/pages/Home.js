@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Sidebar from "./Sidebar";
-import Landing from "./Landing";
+import Sidebar from "../components/Sidebar";
+import Landing from "../components/Landing";
 import { motion } from "framer-motion";
 
 function Home() {

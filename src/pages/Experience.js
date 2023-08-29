@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Stepper from "../pages/Stepper";
+import Stepper from "../components/Stepper";
 import binus_img from "../assets/binus.png";
 import bca_img from "../assets/bca.png";
 import icstar_img from "../assets/icstar.png";

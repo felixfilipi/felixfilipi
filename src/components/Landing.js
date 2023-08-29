@@ -5,7 +5,7 @@ import hydrovest_img from "../assets/hydrovest.png";
 import cluster_img from "../assets/cluster.png";
 import Typewriter from "typewriter-effect";
 
-function Landing(props) {
+function Landing() {
   return (
     <div className="Landing">
       <div className="Landing-mask">

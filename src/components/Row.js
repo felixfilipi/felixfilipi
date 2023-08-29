@@ -1,10 +1,12 @@
+import GaugeChart from "react-gauge-chart";
+
 export default function Row(props){
     return(
-        <div>
+        <>
             <div className="Skill-content-container">
                 <img
                 src={props.image}
-                width="200"
+                width={props.width ? props.width : "200"}
                 className="Skill-content-image"
                 alt={props.desc}
                 />
@@ -12,7 +14,7 @@ export default function Row(props){
             <div className="Skill-content-layout">
                 <h1 className="Typewritter2">{props.skillName}</h1>
                 <p className="Skill-content-description">
-                    {prop.skillDesc}
+                    {props.skillDesc}
                 </p>
             </div>
             <div className="Skill-content-layout">
@@ -30,6 +32,6 @@ export default function Row(props){
                 className="Skill-gauge"
                 />
             </div>
-        </div>
+        </>
     )
 }

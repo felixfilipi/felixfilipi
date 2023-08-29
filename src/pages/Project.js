@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { AiOutlineGithub, AiOutlineYoutube } from "react-icons/ai";
-import Stepper from "../pages/Stepper";
+import Stepper from "../components/Stepper";
 import eyes_img from "../assets/eyes.png";
 import hydrovest_img from "../assets/hydrovest.png";
 import cluster_img from "../assets/cluster.png";
